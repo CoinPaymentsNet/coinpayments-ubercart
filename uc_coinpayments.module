@@ -1,0 +1,6 @@
+<?php
+
+/**
+ * @file
+ * Integrates CoinPayments.NET redirected payment service.
+ */

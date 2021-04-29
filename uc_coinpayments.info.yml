@@ -1,0 +1,10 @@
+name: Ubercart CoinPayments.NET
+description: CoinPayments.NET payment gateway for UberCart.
+package: Ubercart - payment
+type: module
+dependencies:
+  - ubercart:uc_payment
+  - ubercart:uc_order
+version: '8.x-1.0'
+core: '8.x'
+project: 'uc_coinpayments_payment'

@@ -1,0 +1,7 @@
+uc_coinpayments.notification:
+  path: '/cart/coinpayments/notification'
+  defaults:
+    _controller: '\Drupal\uc_coinpayments\Controller\CoinpaymentsController::notification'
+    _title: 'Notification callback'
+  requirements:
+    _permission: 'access content'

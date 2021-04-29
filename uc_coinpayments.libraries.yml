@@ -1,0 +1,6 @@
+checkout.script:
+  js:
+    https://checkout.coinpayments.net/static/js/checkout.js: { type: external, minified: true }
+checkout.button:
+  js:
+    js/uc_coinpayments.js: { }

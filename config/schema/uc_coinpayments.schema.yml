@@ -1,0 +1,13 @@
+payment_method.settings.coinpayments:
+  type: mapping
+  label: 'Coinpayments form configuration settings'
+  mapping:
+    client_id:
+      type: string
+      label: 'Client ID'
+    webhooks:
+      type: boolean
+      label: 'Webhooks'
+    client_secret:
+      type: string
+      label: 'Client Secret'
